@@ -1,0 +1,60 @@
+body {
+    background-color: #464646;
+}
+
+.header {
+    background: #fff;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-size: 1.3em;
+}
+
+
+.logo {text-align: center;}
+.logo>h1 {margin: 2% 0 0 0;}
+
+.mainblock {
+    height:auto;
+    margin:10% 10% 10% 10%;
+    padding: 0;
+    box-shadow: 0 0 5px 2px #333;
+}
+
+.time{
+    text-align: center; 
+    color: #000000;
+    margin-top: 1%
+    
+}
+
+.img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    }
+
+.text {
+    height: ;
+    background: #fff;
+    padding: 10px;
+    
+}
+
+.p {
+    color:#000000;
+}
+
+.author {
+    color:#000000;
+}
+
+.social {
+    font-size: 1.5em;
+}
