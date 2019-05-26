@@ -11,3 +11,7 @@ body {
 .gwt-SuggestBox form-control gwt-common-text-box InputBox {
     border-radius: 20px !important;
 }
+
+#searchForm {
+     background-color: black;
+}
