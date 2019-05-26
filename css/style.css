@@ -7,11 +7,3 @@ body {
     width: 100%;
     height: 100% !important;
 }
-
-.gwt-SuggestBox form-control gwt-common-text-box InputBox {
-    border-radius: 20px !important;
-}
-
-#searchForm {
-     background-color: black;
-}
