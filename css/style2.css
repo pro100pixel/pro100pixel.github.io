@@ -1,0 +1,105 @@
+body{
+	background-color: #F4F6FC;
+	font-family: 'Open Sans', segoe ui;
+
+}
+
+
+
+
+.topmargindown {
+	margin-top: 60px;
+}
+
+.topmenu1 {
+	font-weight: 600;
+	font-size:18px;
+	color: #2E384D;
+	margin-right: 40px;
+	text-decoration: none;
+	white-space:nowrap;
+
+}
+
+.topmenu2 {
+	font-size:18px;
+	color: #8798AD;
+	margin-right: 40px;
+	text-decoration: none;
+	white-space:nowrap;
+}
+
+.topmenu3 {
+	font-size:18px;
+	color: #8798AD;
+	text-decoration: none;
+	margin-right: 60px;
+	white-space:nowrap;
+}
+
+.searchdecoration {
+	background-color: #E6E9F3;
+	color:#233448;
+	width: 300px;
+	border: 1px solid #E6E9F3;
+	border-radius: 30px;
+	padding:10px 20px 10px 20px;
+
+}
+
+.zagalovokmargin{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.zagalovokmargin2{
+	margin-bottom: 25px;
+}
+
+
+.zagalovok1 {
+	font-size:24px;
+}
+
+.block1 {
+	background-color:#fff;
+	height: 75px;
+	width:100%;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	border:1px solid #EDEFF6;
+
+}
+
+.lefttext {
+	float:left;
+	padding-top: 25px;
+	padding-left:15px;
+	font-weight: 600;
+
+}
+
+.righttext {
+	color:#8798AD;
+	text-align: right;
+	float: right;
+	padding-top: 13px;
+	padding-right:13px;
+}
+
+.checkin {
+	width: 3px;
+	height: 73px;
+	border-radius: 3px 0px 0px 3px;
+	background-color: #2E5BFF;
+	float: left;
+}
+
+
+.checkin2 {
+	width: 3px;
+	height: 73px;
+	border-radius: 3px 0px 0px 3px;
+	background-color: #F7C137;
+	float: left;
+}
