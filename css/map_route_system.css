@@ -1,0 +1,52 @@
+html, body {
+
+	background-color:#F4F6FC;
+	font-family: segoe ui;
+	margin:0;
+	padding:0;
+}
+
+.menu1 {
+	font-size: 16px;
+	color:#8798AD;
+	white-space:nowrap;
+
+	margin-right: 47px;
+
+}
+
+.menu2 {
+	font-size: 16px;
+	color:#2E384D;
+	white-space:nowrap;
+	margin-right: 55px;
+	font-weight: 600;
+}
+
+.menu3 {
+	font-size: 16px;
+	color:#8798AD;
+	white-space:nowrap;
+	margin-right: 55px;
+}
+
+.headmenu {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E9EEFF;
+}
+
+.version>p {
+	float: right;
+	color:#8798AD;
+	padding-top: 13.5px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.centertop {
+	margin-top: 5%;
+}

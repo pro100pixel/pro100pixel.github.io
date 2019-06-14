@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css" >
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+function myFunction() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  lists = document.querySelectorAll(".routes");
+  lists.forEach(function(list, index) {
+    list.querySelectorAll('div').forEach(function(element) {
+      txtValue = element.querySelector('a').textContent || element.querySelector('a').innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          element.style.display = "";
+      } else {
+          element.style.display = "none";
+      }
+    });
+  });
+}
+  </script>
+
+<!--Вверхнее меню-->
+  <div class="container-fluid headmenu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mb-4 mt-3">
+          <a href="index.html" class="menu1"><i class="material-icons" style="position: relative; top:6px;">directions_bus</i> Список маршрутов</a>
+          <a href="map_route_system.html" class="menu2"><i class="material-icons" style="position: relative; top:6px;">near_me</i> Построить маршрут на карте</a>
+          <a href="search_flight.html" class="menu3"><i class="material-icons" style="position: relative; top:6px;">departure_board</i> Поиск рейсов</a>
+        </div>
+        <div class="col-sm-12 col-md-2 version"><p>beta version 1.0.9</p></div>
+      </div>
+    </div>
+  </div>
+<!--Конец вверхнего меню-->
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12 col-md-8">
+      <a href="index.html" class="topmenu1" style="color:#8798AD; font-weight: normal;">Все маршруты</a>
+      <a href="gorodskie.html" class="topmenu2" style="color: #2E384D; font-weight: 600;">Городские</a>
+      <a href="prigorod.html" class="topmenu3">Пригород/межгород</a>
+    </div>
+    <div class="col-6 col-md-4">
+      <i class="material-icons poisk">search</i>
+      <input type="text" id="myInput" onkeyup="myFunction()" name="" placeholder="Поиск по номеру маршрута" class="searchdecoration">
+    </div>
+  </div>
+</div>
+
+<!-- Автобусы -->
+<div class="container mt-4">   
+  <div class="row mb-3">
+    <div class="col-12"><span class="blockzag">Автобусы</span></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">1</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">2</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">3</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">4</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">4А</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">4Э</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">5А</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">6</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">6А</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">6Б</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">10</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">11</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">12</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">13</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">14</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">15</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">16</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">18</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">19</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">20</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">22</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">25</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">27</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">28</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">29</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">29А</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">30</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">31А</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">31Б</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">32</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">33</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">35</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">39</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">41</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">44</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">50</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">55</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">77</a>
+    </div>
+
+      
+  </div>
+</div>
+
+
+<!-- Маршрутки -->
+<div class="container mt-4">   
+  <div class="row mb-3">
+    <div class="col-12"><span class="blockzag">Маршрутки</span></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">1</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">6</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">7</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">9</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">14</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">15</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">18</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">20</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">25</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">27</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">28</a>
+    </div>
+      
+    <div class="inforouteend">
+      <a href="#" class="linkroute">29</a>
+    </div>
+      
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">29А</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">30</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">31А</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">31Б</a>
+    </div>
+      
+    <div class="inforoute">
+      <a href="#" class="linkroute">39</a>
+    </div>
+
+    <div class="inforoute mr-0">
+      <a href="#" class="linkroute">41</a>
+    </div>     
+ 
+  </div>
+</div>
+
+<div class="container">
+  <div class="row routes">
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">55</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">104</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">106</a>
+    </div>
+
+    <div class="inforoute">
+      <a href="#" class="linkroute">111</a>
+    </div>
+
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>

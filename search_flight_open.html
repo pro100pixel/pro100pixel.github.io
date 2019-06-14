@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/search_flight_open.css" >
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+<!--Вверхнее меню-->
+  <div class="container-fluid headmenu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mb-4 mt-3">
+          <a href="index.html" class="menu1"><i class="material-icons" style="position: relative; top:6px;">directions_bus</i> Список маршрутов</a>
+          <a href="map_route_system.html" class="menu2"><i class="material-icons" style="position: relative; top:6px;">near_me</i> Построить маршрут на карте</a>
+          <a href="search_flight.html" class="menu3"><i class="material-icons" style="position: relative; top:6px;">departure_board</i> Поиск рейсов</a>
+        </div>
+        <div class="col-sm-12 col-md-2 version"><p>beta version 1.0.9</p></div>
+      </div>
+    </div>
+  </div>
+<!--end-->
+<!-- Ближайшие рейсы -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12 mb-2" style="color:#8798AD;">Результаты поиска</div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 mb-3" style="font-size: 20px;">Ближайшие рейсы</div>
+    </div>
+    <div class="row resultblock">
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4 col-lg-3 ">
+              <div class="leftnav">
+                <div class="circle1"><div class="krug"></div></div>
+                <div class="poloska"></div>
+                <div class="circle2"><div class="krug"></div></div>
+              </div>
+
+              <div class="row mt-4 ml-2">
+                <div class="col-md-8 ml-5 mb-1 navtext1">Грозный </div>
+                <div class="col-md-8 ml-5 mb-1 navtext2">В среднем 26 часов</div>
+                <div class="col-md-8 ml-5 navtext3">Саратов</div>
+              </div>
+              <a href="map_viev_full_screen.html" target="_blank" class="button">Маршрут на карте</a>
+            </div>
+            <div class="col-md-8 col-lg-9">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Время отправления</p><p>11:00</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Время прибытия</p><p>14:00</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Дни отправления</p><p>Среда - воскресенье</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Перевозчик</p><p>ИП Дадаев С. - ИП Джабиев А.Х.</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Отправление из </p><p>АВ Западный</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Протяженность</p><p>1191.22 км</p></div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Завтра -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mb-3 mt-5" style="font-size: 20px;">Воскресенье</div>
+    </div>
+    <div class="row resultblock">
+      <div class="col-md-12">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4 col-lg-3 ">
+              <div class="leftnav">
+                <div class="circle1"><div class="krug"></div></div>
+                <div class="poloska"></div>
+                <div class="circle2"><div class="krug"></div></div>
+              </div>
+
+              <div class="row mt-4 ml-2">
+                <div class="col-md-8 ml-5 mb-1 navtext1">Грозный </div>
+                <div class="col-md-8 ml-5 mb-1 navtext2">В среднем 26 часов</div>
+                <div class="col-md-8 ml-5 navtext3">Саратов</div>
+              </div>
+              <a href="map_viev_full_screen.html" target="_blank" class="button">Маршрут на карте</a>
+            </div>
+            <div class="col-md-8 col-lg-9">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Время отправления</p><p>13:00</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Время прибытия</p><p>11:00</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 textblock"><p style="color: #8798AD">Дни отправления</p><p>Среда - воскресенье</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Перевозчик</p><p>ИП Дадаев С. - ИП Джабиев А.Х.</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Отправление из </p><p>АВ Западный</p></div>
+                <div class="col-md-6 col-lg-4 mt-4 mb-4 textblock"><p style="color: #8798AD">Протяженность</p><p>1191.22 км</p></div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
